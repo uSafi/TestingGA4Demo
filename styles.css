@@ -88,7 +88,8 @@ footer {
 }
 
 @media (max-width: 600px) {
-    nav a, button {
+    body {
         font-size: 18px;
     }
 }
+
