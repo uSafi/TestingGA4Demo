@@ -1,9 +1,13 @@
 <!-- Styles (styles.css) -->
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4;    
 }
 
 nav {
@@ -48,6 +52,7 @@ button:hover {
 }
 
 footer {
+    margin-top: auto;
     background-color: #333;
     color: #fff;
     text-align: center;
